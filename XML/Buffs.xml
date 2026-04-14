@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Buffs>
+  <Buff>
+    <Guid>WeddingBand_Cheap</Guid>
+    <Name>Simple Wedding Band Box</Name>
+    <Description>It's the thought that counts!</Description>
+    <BuffValue>5</BuffValue>
+    <TimeoutLength>-1</TimeoutLength>
+    <Icon>moodlet_engaged</Icon> 
+    <ThumbResName>moodlet_engaged</ThumbResName>
+    <IsMoodRelevant>True</IsMoodRelevant>
+    <AxisValue>Positive</AxisValue>
+    <StackingLimit>1</StackingLimit>
+  </Buff>
+  
+  <Buff>
+    <Guid>WeddingBand_nice</Guid>
+    <Name>Tasteful Wedding Band Box</Name>
+    <Description>A lovely gesture from someone dear.</Description>
+    <BuffValue>15</BuffValue>
+    <TimeoutLength>-1</TimeoutLength>
+    <Icon>moodlet_engaged</Icon> 
+    <ThumbResName>moodlet_engaged</ThumbResName>
+    <IsMoodRelevant>True</IsMoodRelevant>
+    <AxisValue>Positive</AxisValue>
+    <StackingLimit>1</StackingLimit>
+  </Buff>
+  
+  <Buff>
+    <Guid>WeddingBand_showy</Guid>
+    <Name>Beautiful Wedding Band Box</Name>
+    <Description>A precious token of love.</Description>
+    <BuffValue>25</BuffValue>
+    <TimeoutLength>-1</TimeoutLength>
+    <Icon>moodlet_engaged</Icon> 
+    <ThumbResName>moodlet_engaged</ThumbResName>
+    <IsMoodRelevant>True</IsMoodRelevant>
+    <AxisValue>Positive</AxisValue>
+    <StackingLimit>1</StackingLimit>
+  </Buff>
+  
+  <Buff>
+    <Guid>WeddingBand_Rock</Guid>
+    <Name>Gaudy Wedding Band Box</Name>
+    <Description>My finger is actually getting tired from lifting this diamond.</Description>
+    <BuffValue>30</BuffValue>
+    <TimeoutLength>-1</TimeoutLength>
+    <Icon>moodlet_engaged</Icon> 
+    <ThumbResName>moodlet_engaged</ThumbResName>
+    <IsMoodRelevant>True</IsMoodRelevant>
+    <AxisValue>Positive</AxisValue>
+    <StackingLimit>1</StackingLimit>
+  </Buff>
+</Buffs>
