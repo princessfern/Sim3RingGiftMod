@@ -1,0 +1,31 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net35</TargetFramework>
+    <AssemblyName>Omnipotence.WeddingMod</AssemblyName>
+    <RootNamespace>Omnipotence.WeddingMod</RootNamespace>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="Sims3GameplaySystems">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\The Sims 3\Game\Bin\Sims3GameplaySystems.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sims3GameplayObjects">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\The Sims 3\Game\Bin\Sims3GameplayObjects.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Sims3Metadata">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\The Sims 3\Game\Bin\Sims3Metadata.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="SimIFace">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\The Sims 3\Game\Bin\SimIFace.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UI">
+      <HintPath>C:\Program Files (x86)\Steam\steamapps\common\The Sims 3\Game\Bin\UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+</Project>
