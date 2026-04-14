@@ -1,0 +1,6 @@
+<BuffList>
+  <BuffElt BuffName="WeddingBand_Cheap" />
+  <BuffElt BuffName="WeddingBand_nice" />
+  <BuffElt BuffName="WeddingBand_showy" />
+  <BuffElt BuffName="WeddingBand_Rock" />
+</BuffList>
