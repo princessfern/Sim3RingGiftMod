@@ -21,8 +21,6 @@ namespace Omnipotence.WeddingMod
         {
             base.OnStartup();
             
-            // Safety gate: The Buy Mode 'ghost' doesn't have a Proxy or InWorld status.
-            // This prevents the interaction from being added before the object is placed.
             if (this.InWorld && this.Proxy != null) 
             {
                 this.AddInteraction(GiveRingInteraction.Singleton);
@@ -31,7 +29,6 @@ namespace Omnipotence.WeddingMod
 
         private ulong GetGuidByPrice()
         {
-            // Fallback to Tier 1 hash if catalog data is unavailable
             if (this.Product == null) return 0xCB3E96102AF4BB28; 
 
             int price = (int)this.Product.Price;
@@ -71,8 +68,6 @@ namespace Omnipotence.WeddingMod
             {
                 try 
                 {
-                    // Full Reflection approach to avoid 'Origin' enum compiler errors.
-                    // We scan for AddElement(ulong, [any enum/int])
                     MethodInfo[] methods = mOwner.BuffManager.GetType().GetMethods();
                     foreach (MethodInfo method in methods)
                     {
@@ -104,7 +99,7 @@ namespace Omnipotence.WeddingMod
         {
             if (Actor != null && Target != null)
             {
-                // Simple gifting animation
+                //gifting animation
                 Actor.PlaySoloAnimation("a2o_gift_give", true);
                 
                 // Move object from world/parent to inventory
