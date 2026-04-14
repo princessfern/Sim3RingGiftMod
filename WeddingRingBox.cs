@@ -50,7 +50,6 @@ namespace Omnipotence.WeddingMod
 
         private void CheckForOwnerAndApplyBuff()
         {
-            // Basic Parent checking for Sim or Inventory ownership
             if (this.Parent is Sim)
             {
                 mOwner = this.Parent as Sim;
